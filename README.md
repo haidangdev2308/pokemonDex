@@ -7,21 +7,23 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+Pokémon Explorer Web App
+Explore the world of Pokémon with this web application built using ReactJS, Tailwind CSS, and TypeScript. This project connects to a Pokémon API to provide users with a seamless and enjoyable experience for discovering and learning about their favorite pocket monsters.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Features
+Load More Pokémon: Discover an ever-expanding list of Pokémon as you scroll through the application. Load more Pokémon effortlessly with a single click, ensuring you can catch 'em all!
 
-- Configure the top-level `parserOptions` property like this:
+View Pokémon Details: Dive deeper into the world of Pokémon by clicking on any of them. You'll find a wealth of information, including their type, abilities, and much more.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Technologies Used
+ReactJS: A popular JavaScript library for building user interfaces.
+Tailwind CSS: A utility-first CSS framework for creating stylish and responsive designs.
+TypeScript: A typed superset of JavaScript that helps catch errors early in development.
+Pokémon API: [A data source for retrieving information about various Pokémon species.](https://pokeapi.co/)
+Getting Started
+To get started with this project, follow these steps:
+
+Clone this repository to your local machine.
+Install the required dependencies using npm install or yarn install.
+Run the development server with npm start or yarn start.
